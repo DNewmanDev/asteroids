@@ -38,6 +38,12 @@ def main():
                 print('Game over!')
                 pygame.quit()
                 sys.exit()
+        for roid in asteroids:
+            for shot in shots:
+                if roid.collision_check(shot):
+                    roid.kill()
+                    shot.kill()
+                
         for item in drawable:
             item.draw(screen)
         
