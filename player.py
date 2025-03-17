@@ -40,7 +40,6 @@ class Player(CircleShape):
         if keys[pygame.K_s]:
             self.move(0-dt)
         if keys[pygame.K_SPACE]:
-            print('space')
             self.shoot()
 
        
