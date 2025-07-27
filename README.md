@@ -118,7 +118,7 @@ for asteroid in asteroids:
 ### Installation & Running
 ```bash
 # Clone the repository
-git clone (https://github.com/DonJNewman/asteroids.git)
+git clone https://github.com/DonJNewman/asteroids.git
 cd asteroids
 
 # Install dependencies
