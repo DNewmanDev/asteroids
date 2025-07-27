@@ -1,4 +1,4 @@
-#ASTEROIDS#
+# ASTEROIDS #
 
 This python program is a complete implementation of the classic Asteroids arcade game using Pygame, featuring object-oriented design, real-time physics simulation, and collision detection systems.
 
