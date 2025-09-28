@@ -10,6 +10,17 @@ This python program is a complete implementation of the classic Asteroids arcade
 - **Object-Oriented Architecture**: Clean inheritance hierarchy with reusable classes
 - **Nostalgic Gameplay**: Relive the good old days with an authentic Asteroids experience, complete with spaceship control and asteroid destruction
 
+## 🎯 Skills Demonstrated
+
+- **Game Development**: Complete game implementation with proper game loop architecture
+- **Object-Oriented Programming**: Inheritance, polymorphism, and encapsulation
+- **Physics Programming**: 2D vector mathematics and collision detection algorithms
+- **Event-Driven Programming**: Input handling and real-time user interaction
+- **Graphics Programming**: Sprite rendering and visual effects
+- **Design Patterns**: Factory pattern for object creation, Component pattern for game objects
+- **Performance Optimization**: Efficient sprite group management and collision detection
+
+
 ## 🏗️ Technical Architecture
 
 ### Game Engine Design
@@ -34,7 +45,6 @@ This python program is a complete implementation of the classic Asteroids arcade
 - **Python 3.8+**: Modern Python with object-oriented programming
 - **Pygame 2.6.1**: Cross-platform game development framework
 - **Vector Mathematics**: 2D vector operations for physics simulation
-- **Sprite System**: Efficient game object management and rendering
 
 ## 🔧 Technical Highlights
 
@@ -99,16 +109,6 @@ for asteroid in asteroids:
             # Split asteroid if large enough
 ```
 
-## 🎯 Skills Demonstrated
-
-- **Game Development**: Complete game implementation with proper game loop architecture
-- **Object-Oriented Programming**: Inheritance, polymorphism, and encapsulation
-- **Physics Programming**: 2D vector mathematics and collision detection algorithms
-- **Event-Driven Programming**: Input handling and real-time user interaction
-- **Graphics Programming**: Sprite rendering and visual effects
-- **Design Patterns**: Factory pattern for object creation, Component pattern for game objects
-- **Performance Optimization**: Efficient sprite group management and collision detection
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -118,7 +118,7 @@ for asteroid in asteroids:
 ### Installation & Running
 ```bash
 # Clone the repository
-git clone https://github.com/DonJNewman/asteroids.git
+git clone https://github.com/DNewmanDev/asteroids.git
 cd asteroids
 
 # Install dependencies
