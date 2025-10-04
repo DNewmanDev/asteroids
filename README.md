@@ -121,8 +121,14 @@ for asteroid in asteroids:
 git clone https://github.com/DNewmanDev/asteroids.git
 cd asteroids
 
-# Install dependencies
-pip install -r requirements.txt
+
+=======
+# Set up environment and dependencies
+curl -LsSf https://astral.sh/uv/install.sh | sh
+uv venv
+source .venv/bin/activate
+uv run -m pygame
+>>>>>>> 9d97327 (launch bug fix, updated docs)
 
 # Run the game
 python3 main.py
@@ -130,9 +136,10 @@ python3 main.py
 
 ## 🎮 Game Controls
 
-- **Arrow Keys**: Rotate spaceship left/right
+=======
+- **A/D**: Rotate spaceship left/right
+- **W/S**: Move forward and back
 - **Space Bar**: Fire projectiles
-- **Up Arrow**: Apply thrust to move forward
 - **ESC**: Quit game
 
 ## 🎯 Gameplay Mechanics
@@ -140,8 +147,7 @@ python3 main.py
 1. **Player Movement**: Navigate using rotation and thrust controls
 2. **Asteroid Destruction**: Shoot asteroids to break them into smaller pieces
 3. **Collision Avoidance**: Avoid colliding with asteroids to survive
-4. **Progressive Difficulty**: Smaller asteroids move faster and are harder to hit
-5. **Screen Wrapping**: Objects teleport to opposite edge when leaving screen
+4. **Screen Wrapping**: Objects teleport to opposite edge when leaving screen
 
 ## 🏗️ Project Structure
 
@@ -154,9 +160,10 @@ asteroids/
 ├── shot.py           # Projectile system
 ├── circleshape.py    # Base class for circular objects
 ├── constants.py      # Game configuration and constants
-├── requirements.txt  # Pygame dependency
-└── README.md         # This documentation
-```
+├── pyproject.toml    # Pygame dependency
+├── README.md         # This documentation
+└── Uv.lock           # Dependency info
+
 
 ## 🔧 Customization
 
@@ -175,5 +182,3 @@ PLAYER_THRUST_SPEED = 300
 ASTEROID_MIN_RADIUS = 20
 ASTEROID_MAX_RADIUS = 50
 ```
-
-This project demonstrates comprehensive game development skills, including physics programming, collision detection, and real-time graphics rendering. It showcases the ability to create interactive entertainment software and implement complex algorithms in a performant, user-facing application.
