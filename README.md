@@ -182,3 +182,9 @@ PLAYER_THRUST_SPEED = 300
 ASTEROID_MIN_RADIUS = 20
 ASTEROID_MAX_RADIUS = 50
 ```
+## 🚀 Demo 🚀
+
+
+
+https://github.com/user-attachments/assets/5be43004-1dd0-49fa-8d5c-4ebcaaa741c3
+
